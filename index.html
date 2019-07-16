@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./stylesheet.css">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Drawing js</title>
+   <script type="module" src="./index.js"></script>
+</head>
+<body>
+
+   <table class="grid">
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+      </tr>
+   </table>
+   <div class="coloring-buttons">
+      <button class="button button-color--green ">Green</button>
+      <button class="button button-color--blue ">Blue</button>
+      <button class="button button-color--red ">Red</button>
+      <button class="button button-color--grey ">Gray</button>
+      <button class="button button-color--black ">Black</button>
+      <button class="button button-color--yellow ">yellow</button>
+      <button class="button button-undo">Cofnij</button>
+      <button class="button button-redo-undo">Cofnij Cofnij</button>
+      <button class="button button-clear">Wyczyść</button>
+   </div>
+   <div class="canvas-container"></div>
+   <select id="singleSelectTextDDJS" class="form-control">
+      <option value="0">64x64</option>
+      <option value="8">128x64</option>
+      <option value="5">128x128</option>
+   </select>
+   
+</body>
+</html>
